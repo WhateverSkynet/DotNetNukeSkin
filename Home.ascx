@@ -56,47 +56,50 @@
 
 <div id="CarouselPane" runat="server" class="carousel slide" containertype="G" containername="Whatever" containersrc="Blank.ascx" />
 
-<div class="container">
-    <!--/Logo-->
+<div class="main">
+    <div class="container">
+        <!--/Logo-->
 
-    <div id="TopContent" class="row">
-        <div id="TopPane" runat="server" class="col-md-24" />
-    </div>
+        <div id="TopContent" class="row">
+            <div id="TopPane" runat="server" class="col-md-24" />
+        </div>
 
-    <div id="Content" class="row">
-        <div id="ContentPane" runat="server" class="col-md-18" />
-        <div id="RightPane" runat="server" class="col-md-6" />
-    </div>
-    <div id="MidContent" class="row">
-        <div id="ThirdRowLeft" runat="server" class="col-md-8" />
-        <div id="ThirdRowMiddle" runat="server" class="col-md-8" />
-        <div id="ThirdRowRight" runat="server" class="col-md-8" />
-    </div>
-    <div id="ContentLeftCol" class="row">
-        <div id="LeftPane" runat="server" class="col-md-6" />
-        <div id="ContentPaneRight" runat="server" class="col-md-18" />
-    </div>
-    <div id="UserProfile" class="row">
-        <div id="UserProfileLeft" runat="server" class="col-md-4" />
-        <div id="UserProfileContent" runat="server" class="col-md-20" />
-    </div>
-    <div id="BottomContent" class="row">
+        <div id="Content" class="row">
+            <div id="ContentPane" runat="server" class="col-md-18" />
+            <div id="RightPane" runat="server" class="col-md-6" />
+        </div>
+        <div id="MidContent" class="row">
+            <div id="ThirdRowLeft" runat="server" class="col-md-8" />
+            <div id="ThirdRowMiddle" runat="server" class="col-md-8" />
+            <div id="ThirdRowRight" runat="server" class="col-md-8" />
+        </div>
+        <div id="ContentLeftCol" class="row">
+            <div id="LeftPane" runat="server" class="col-md-6" />
+            <div id="ContentPaneRight" runat="server" class="col-md-18" />
+        </div>
+        <div id="UserProfile" class="row">
+            <div id="UserProfileLeft" runat="server" class="col-md-4" />
+            <div id="UserProfileContent" runat="server" class="col-md-20" />
+        </div>
+        <div id="BottomContent" class="row">
 
-        <div id="BottomPane" runat="server" class="col-md-24" />
+            <div id="BottomPane" runat="server" class="col-md-24" />
+        </div>
     </div>
-    <div id="FooterRow" class="row">
+</div>
 
-        <div id="FooterRowLeft" runat="server" class="col-md-8" />
-        <div id="FooterRowMiddle" runat="server" class="col-md-8" />
-        <div id="FooterRowRight" runat="server" class="col-md-8" />
+<div id="FooterRow" class="row">
 
-        <div id="FooterPane" runat="server" class="col-md-24" />
-        <div id="CopyRightPane" class="SkinLink col-md-24 center">
-            <div class="col-md-12">
-                <dnn:copyright ID="dnnCopyright" runat="server" />
-                <dnn:terms id="dnnTerms" runat="server" />
-                <dnn:privacy id="dnnPrivacy" runat="server" />
-            </div>
+    <div id="FooterRowLeft" runat="server" class="col-md-8" />
+    <div id="FooterRowMiddle" runat="server" class="col-md-8" />
+    <div id="FooterRowRight" runat="server" class="col-md-8" />
+
+    <div id="FooterPane" runat="server" class="col-md-24" />
+    <div id="CopyRightPane" class="SkinLink col-md-24 center">
+        <div class="col-md-12">
+            <dnn:copyright ID="dnnCopyright" runat="server" />
+            <dnn:terms id="dnnTerms" runat="server" />
+            <dnn:privacy id="dnnPrivacy" runat="server" />
         </div>
     </div>
 </div>

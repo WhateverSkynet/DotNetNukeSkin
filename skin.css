@@ -39,20 +39,34 @@ body {
     color: #202020;
 }
 
+container {
+    max-width: 1200px;
+}
+
+.main {
+    background-color: #f0f0f0;
+}
+
 #dnn_ContentPane {
     background-color: #FFF;
 }
 
 #header {
-  background-color: #2a2d2f;
+    background-color: #2a2d2f;
+}
+
+#dnn_dnnLOGO_imgLogo {
+    margin-top:20px;
+    margin-right:100px;
 }
 
 .navbar {
+    height:140px;
     top: 0;
     margin-bottom: 0 !important;
     border-radius: 0 !important;
     border: none;
-	background-color: #202020;
+	background-color: #2a2d2f;
 	background-image: none;
     box-shadow: none;
 }
@@ -63,8 +77,8 @@ body {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-    background-color: #666;
-    color: #FFF;
+    background-color: #34383b;
+    color: #f0f0f0;
 }
 
 .carousel-inner > .active.left {
@@ -145,7 +159,7 @@ a, a:visited {
 }
 
 .navbar-default .navbar-nav > li > div > ul > li > a, .navbar-default .LoginLink {
-    color: #888;
+    color: #808080;
 }
 
 .navbar-default .navbar-nav > li > div > a:hover,
