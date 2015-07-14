@@ -99,7 +99,7 @@
 
     <div id="FooterPane" runat="server" class="col-md-24" />
     <div id="CopyRightPane" class="SkinLink col-md-24 center">
-        <div class="col-md-12">
+        <div class="col-md-24">
             <dnn:copyright ID="dnnCopyright" runat="server" />
             <dnn:terms id="dnnTerms" runat="server" />
             <dnn:privacy id="dnnPrivacy" runat="server" />
