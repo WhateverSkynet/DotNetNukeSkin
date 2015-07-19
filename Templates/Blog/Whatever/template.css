@@ -1,0 +1,293 @@
+.ModBlogC .blog-main-content { padding: 1em 1em 8em 1em }
+
+.ModBlogC .is-post {
+    border-bottom: 1px solid #ddd;
+    min-height: 300px;
+    position: relative;
+}
+
+.ModBlogC .is-post header {
+    margin: 0 0 1em 0;
+    padding: 1em 0 0 0;
+}
+
+.ModBlogC .is-post h2 {
+    font-size: 3.25em;
+    line-height: 1.25em
+}
+
+.ModBlogC .is-post h2 a, .ModBlogC .is-post h2 a:visited {
+    color: #222;
+    text-decoration: none;
+}
+
+.ModBlogC .is-post h2 a:hover { color: #666 }
+
+.ModBlogC .is-post .byline {
+    color: #999;
+    display: block;
+    margin-bottom: -0.65em;
+    margin-top: 1em;
+    position: relative;
+    top: -0.65em;
+}
+
+.ModBlogC .is-post p, .ModBlogC .is-post ul, .ModBlogC .is-post ol, .ModBlogC .is-post dl, .ModBlogC .is-post table { margin-bottom: 1em }
+
+.ModBlogC .is-post section, .ModBlogC article.is-post { margin-bottom: 1em }
+
+.ModBlogC .is-post section > :last-child, .ModBlogC article.is-post > :last-child, .ModBlogC .is-post section > .inner > :last-child, .ModBlogC article.is-post > .inner > :last-child, .ModBlogC .is-post section:last-child, .ModBlogC article.is-post:last-child { margin-bottom: 0 }
+
+.ModBlogC .is-post .image { display: inline-block }
+
+.ModBlogC .is-post .image img {
+    display: block;
+    width: 100%
+}
+
+.ModBlogC .is-post .image-full {
+    display: block;
+    margin: 0 0 2em 0;
+    width: 100%;
+}
+
+.ModBlogC .is-post .info .date .unpublished div {
+    color: #f00;
+    display: block;
+    font-size: 1.4em;
+    padding-top: 10px;
+}
+
+.ModBlogC .is-post .info .tags { margin: 0 }
+
+.ModBlogC .is-post .info .tags a {
+    color: #999;
+    font-size: .8em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.ModBlogC .is-post .info {
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: #eee;
+    border-radius: .4em;
+    box-shadow: 0 0 .25em 0 rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    left: -7.5em;
+    overflow: hidden;
+    padding: 1em;
+    position: absolute;
+    top: 0;
+    width: 5.5em;
+}
+
+.ModBlogC .is-post .info:after {
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0
+}
+
+.ModBlogC .is-post .info .date {
+    border-bottom: solid 1px #ddd;
+    color: #999;
+    color: #999;
+    display: block;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 0 0 .75em 0;
+    padding: 0 0 1em 0;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.ModBlogC .is-post .info .date .year {
+    color: #999;
+    display: block;
+    font-size: .9em;
+    font-weight: 700;
+    padding: .75em 0 0 0;
+}
+
+.ModBlogC .is-post .info .date .day {
+    color: #999;
+    display: block;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: .45em 0 0 0;
+}
+
+.ModBlogC .is-post .info .tags {
+    position: relative;
+    z-index: 1
+}
+
+.ModBlogC .is-post .info .tags li {
+    list-style-type: none;
+    margin: .35em 0 0 0;
+}
+
+.ModBlogC .is-post .info .tags li a {
+    display: block;
+    text-align: right
+}
+
+.ModBlogC .is-post .info .tags li a:hover, .ModBlogC .is-post .info .tags li a:active { color: #000 }
+
+.ModBlogC .is-post .pager .pages {
+    display: inline-block;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700
+}
+
+.ModBlogC .is-post .pager .pages span {
+    display: inline-block;
+    margin: 0 .4em 0 0;
+    text-align: center;
+    width: 1.5em;
+}
+
+.ModBlogC .is-post .pager .pages a {
+    -moz-transition: background-color .25s ease-in-out;
+    -ms-transition: background-color .25s ease-in-out;
+    -o-transition: background-color .25s ease-in-out;
+    -webkit-transition: background-color .25s ease-in-out;
+    background-color: #e8e8e8;
+    border-radius: .4em;
+    box-shadow: inset 0 .075em .25em 0 rgba(0, 0, 0, 0.1);
+    color: inherit;
+    color: #565656;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 .4em 0 0;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .25s ease-in-out;
+}
+
+.ModBlogC .is-post .pager .pages a:hover { background-color: #dadada }
+
+.ModBlogC .is-post .pager .pages a.active {
+    background-color: #364050;
+    box-shadow: none;
+    color: #fff;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5)
+}
+
+a.blog_commentLinkSelected {
+    color: #3B96B6 !important;
+    cursor: default
+}
+
+.ModBlogC .is-post h2 a, .ModBlogC .is-post h2 { font-size: larger }
+
+.ModBlogC div.stats { clear: both }
+
+.ModBlogC div.stats div.stat {
+    color: #999;
+    display: inline;
+    float: right;
+}
+
+.ModBlogC div.summary {
+    color: #333;
+    padding-bottom: 2em
+}
+
+.ModBlogC .post-details { border-bottom: 0 }
+
+.ModBlogC .post-details .socialbar {
+    border: 1px solid #999;
+    border-radius: .4em;
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    padding: 4px;
+}
+
+.ModBlogC .post-details .socialbar .sharrre a { padding-left: 10px }
+
+.ModBlogC .post-details header, .ModBlogC .selectbanner {
+    background-color: #34383b;
+    border-radius: .4em;
+    box-shadow: 0 0 .25em 0 rgba(0, 0, 0, 0.25);
+    padding: 15px 10px;
+}
+
+.ModBlogC .post-details header h2, .ModBlogC .post-details header .byline, .ModBlogC .post-details header .byline a, .ModBlogC .post-details header .byline a:visited { color: #ddd }
+
+.ModBlogC .post-details header .byline a:hover { color: #fff }
+
+.ModBlogC span.removeselection {
+    float: right;
+    margin-top: -8px
+}
+
+.ModBlogC span.removeselection a { color: #aaa }
+
+
+.ModBlogC a.taglink {
+    background-color: #C94663;
+    background-image: url("images/bg1.png");
+    border-radius: .4em;
+    box-shadow: 0 0 .25em 0 rgba(0, 0, 0, 0.25);
+    margin-right: 8px;
+    padding: 4px 8px;
+}
+
+.ModBlogC a.pagebtn {
+    background-color: #ccc;
+    background-image: url("images/bg1.png");
+    border-radius: .4em;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 4px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ModBlogC a.pagebtn:hover {
+    background-color: #C94663;
+    background-image: url("images/bg1.png")
+}
+
+.ModBlogC a.active, .ModBlogC a.active:hover {
+    background-color: #364050;
+    background-image: url("images/bg1.png")
+}
+
+.ModBlogC .pager span {
+    font-weight: bold;
+    margin-right: 4px;
+    padding: 10px;
+}
+
+.ModBlogC .blog_comments { padding: 10px 0 10px 0 }
+
+.ModBlogC .blog_comments .blog_comment_totals {
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.ModBlogC .blog_comment { padding: 10px 0 0 10px }
+
+.ModBlogC .blog_comment .blog_comment_pic {
+    float: left;
+    padding: 2px 5px 5px 0
+}
+
+.ModBlogC .blog_comment .blog_comment_details .blog_comment_actions { color: #888 }
+
+.ModBlogC .blog_topPad { padding-top: 20px }
