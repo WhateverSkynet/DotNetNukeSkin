@@ -10,7 +10,7 @@
 <%@ Register TagPrefix="dnn" TagName="MENU" Src="~/DesktopModules/DDRMenu/Menu.ascx" %>
 <%@ Register TagPrefix="dnn" Namespace="DotNetNuke.Web.Client.ClientResourceManagement" Assembly="DotNetNuke.Web.Client" %>
 
-<script type="text/javascript" src="http://static.wowhead.com/widgets/power.js"></script>
+<script type="text/javascript" src="https://static.wowhead.com/widgets/power.js"></script>
 <script>var wowhead_tooltips = { "colorlinks": true, "iconizelinks": true, "renamelinks": true }</script>
 
 <dnn:META ID="mobileScale" runat="server" Name="viewport" Content="width=device-width,initial-scale=1" />
@@ -100,7 +100,7 @@
     <div id="FooterPane" runat="server" class="col-md-24" />
     <div id="CopyRightPane" class="SkinLink col-md-24 center">
         <div class="col-md-24">
-            <dnn:copyright ID="dnnCopyright" runat="server" />
+            <dnn:copyright id="dnnCopyright" runat="server" />
             <dnn:terms id="dnnTerms" runat="server" />
             <dnn:privacy id="dnnPrivacy" runat="server" />
         </div>

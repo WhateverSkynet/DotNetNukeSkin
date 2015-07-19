@@ -146,6 +146,10 @@ a, a:visited {
     white-space: normal;
 }
 
+#dnn_dnnCopyright_lblCopyright {
+    color: #FFF;
+}
+
 /* ADMIN */
 
 #ControlBar, #ControlBar:before, #ControlBar:after, #ControlBar *:before, #ControlBar *:after,

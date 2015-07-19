@@ -113,7 +113,81 @@
     <Content Include="Home.ascx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Whatever.dnn" />
+    <Content Include="Templates\Blog\whateverTimeline\css\loading.gif" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\dark.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\font\AbrilFatface-Average.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\font\Arvo-PTSans.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\font\Bevan-PotanoSans.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\font\BreeSerif-OpenSans.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\font\DroidSerif-DroidSans.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\font\Georgia-Helvetica.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\font\Lekton-Molengo.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\font\Lora-Istok.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\font\Merriweather-NewsCycle.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\font\NewsCycle-Merriweather.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\font\NixieOne-Ledger.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\font\Pacifico-Arimo.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\font\PlayfairDisplay-Muli.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\font\PoiretOne-Molengo.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\font\PT.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\font\PTSerif-PTSans.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\font\Rancho-Gudea.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\font\SansitaOne-Kameron.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\timeline-dark%402x.png" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\timeline-dark.png" />
+    <Content Include="Templates\Blog\whateverTimeline\css\themes\timeline-texture.png" />
+    <Content Include="Templates\Blog\whateverTimeline\css\timeline%402x.png" />
+    <Content Include="Templates\Blog\whateverTimeline\css\timeline.css" />
+    <Content Include="Templates\Blog\whateverTimeline\css\timeline.png" />
+    <Content Include="Templates\Blog\whateverTimeline\Description.txt" />
+    <Content Include="Templates\Blog\whateverTimeline\js\0-storyjs-embed.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\ar\ar.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\bg\bg.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\ca\ca.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\cz\cz.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\de\de.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\dk\dk.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\el\el.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\en\en.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\es\es.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\eu\eu.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\fi\fi.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\fo\fo.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\fr\fr.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\hu\hu.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\hu\hy.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\id\id.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\is\is.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\it\it.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\iw\iw.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\ja\ja.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\ko\ko.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\kr\kr.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\nl\nl.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\no\no.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\pl\pl.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\pt-br\pt-br.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\pt\pt.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\ru\ru.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\sk\sk.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\sl\sl.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\sr-cy\sr-cy.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\sr-la\sr-la.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\sv\sv.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\ta\ta.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\timeline.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\tl\tl.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\tr\tr.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\zh-ch\zh-ch.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\zh-cn\zh-cn.js" />
+    <Content Include="Templates\Blog\whateverTimeline\js\zh-tw\zh-tw.js" />
+    <Content Include="Templates\Blog\whateverTimeline\Post.html" />
+    <Content Include="Templates\Blog\whateverTimeline\PostImage.html" />
+    <Content Include="Templates\Blog\whateverTimeline\Settings.xml" />
+    <Content Include="Templates\Blog\whateverTimeline\Template.html" />
+    <Content Include="Whatever.dnn">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Documentation\Documentation.css" />
     <Content Include="Documentation\Documentation.html" />
   </ItemGroup>
@@ -141,6 +215,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bootstrap\config.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\Roboto-Bold.ttf" />
+    <Content Include="fonts\Roboto-Light.ttf" />
+    <Content Include="fonts\Roboto-Regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Templates\Blog\whateverTimeline\App_LocalResources\SharedResources.ascx.resx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
