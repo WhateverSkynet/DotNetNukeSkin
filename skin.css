@@ -120,9 +120,6 @@ ul.dnnAdminTabNav {
 
 /*Links*/
 
-a, a:visited {
-    color: #FFF;
-}
 
 /* styling for the Edit Profile and My Account links in User Profiles */
 .dnnActions {
@@ -327,4 +324,12 @@ a, a:visited {
 #Content, #TopContent {
     margin-top: 10px;
 }
+/* fix for DNN dropdown lists being cut off*/
 
+.dnnDropDownList .selected-item, .dnnDropDownList .selected-item a  {
+    height: 35px !important;
+}
+
+
+/* fix for coloring on DNN Check boxes and radio */
+.dnnCheckbox .mark, .dnnRadiobutton .mark{ background: none;}

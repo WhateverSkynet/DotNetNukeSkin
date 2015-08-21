@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="Whatever" type="Skin" version="00.00.02">
+    <package name="Whatever" type="Skin" version="00.00.04">
       <friendlyName>Whatever</friendlyName>
       <description>A responsive DNN skin using Bootstrap 3. Requires installation via the Host/Extensions page.</description>
       <owner>
@@ -49,7 +49,7 @@
         </component>
       </components>
     </package>
-    <package name="Whatever" type="Container" version="00.00.02">
+    <package name="Whatever" type="Container" version="00.00.04">
       <friendlyName>Whatever</friendlyName>
       <description>Containers for the Whatever Skin package.</description>
       <owner>

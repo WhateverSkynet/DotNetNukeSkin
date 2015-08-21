@@ -372,7 +372,7 @@
 	padding: 0px;
 }
 /* links inside content table*/
-.yafnet .content a		{ color: #202020; text-decoration: none; font-size: 14px;}
+.yafnet .content a		{ color: #202020; text-decoration: underline; font-size: 14px;}
 .yafnet .content a:hover	{ color: #202020; text-decoration: underline; }
 /* used for quoting messages */
 .yafnet .quote {
