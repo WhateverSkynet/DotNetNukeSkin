@@ -324,12 +324,3 @@ ul.dnnAdminTabNav {
 #Content, #TopContent {
     margin-top: 10px;
 }
-/* fix for DNN dropdown lists being cut off*/
-
-.dnnDropDownList .selected-item, .dnnDropDownList .selected-item a  {
-    height: 35px !important;
-}
-
-
-/* fix for coloring on DNN Check boxes and radio */
-.dnnCheckbox .mark, .dnnRadiobutton .mark{ background: none;}
